@@ -15,7 +15,7 @@ const Hero = () => {
            
         </div>
         <div className='mt-[6rem] '>
-                <Image alt='iphone' width={400} height={500} className='w-[25rem] ' src='/Iphone.png'></Image>
+                <Image alt='iphone' width={400} height={500} className='w-[25rem] ' src='/iphone.png'></Image>
             </div>
             </div>
     </div>
