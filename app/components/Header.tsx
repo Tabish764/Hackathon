@@ -27,7 +27,7 @@ const Header = () => {
           <a className='text-black' href="#">Home</a>
           <a  className='text2 hover:text-black' href="#">About</a>
           <a className='text2 hover:text-black' href="#">Contact Us</a>
-          <a className='text2 hover:text-black' href="#">Blog</a>
+          <a className='text2 ' href="#">Blog</a>
         </nav>
         <div className='flex items-center gap-5 mr-[5rem]'>
           <IoHeartOutline className='hover:fill-red-600' style={{ width: '26px', height: '26px'}} />

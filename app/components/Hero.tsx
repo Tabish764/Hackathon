@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <div className='bg  flex text-white'>
+    <div className='bg pb-[0.1rem]    flex text-white'>
         <div className='flex  justify-between w-full mx-[10rem] '>
         <div className='flex flex-col mt-[12rem]  gap-1'>
             <p className='font-medium text text-2xl'>Pro.Beyond.</p>
@@ -14,8 +14,8 @@ const Hero = () => {
             </div>
            
         </div>
-        <div className=' mb-5 mt-[5rem]'>
-                <Image alt='iphone' width={400} height={400} className='w-[25rem]' src='/12121.PNG'></Image>
+        <div className='mt-[6rem] '>
+                <Image alt='iphone' width={400} height={500} className='w-[25rem] ' src='/Iphone.png'></Image>
             </div>
             </div>
     </div>
