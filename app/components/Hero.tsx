@@ -10,12 +10,12 @@ const Hero = () => {
             <h1 className='text-8xl font-[100] mb-2'>IPhone 14 <span className='font-[500]'>Pro</span></h1>
             <h2 className='mb-2 text-xl text'>Created to change everything for the better. For everyone</h2>
             <div>
-            <button className='border py-4 mt-2 px-[3rem] rounded '>Shop Now</button>
+            <button className='border py-4 mt-2 px-[3rem] rounded hover:bg-white hover:text-black transition delay-200 ease-in-out '>Shop Now</button>
             </div>
            
         </div>
         <div className=' mb-5 mt-[5rem]'>
-                <img className='w-[25rem]' src='/12121.PNG'></img>
+                <Image alt='iphone' width={400} height={400} className='w-[25rem]' src='/12121.PNG'></Image>
             </div>
             </div>
     </div>
