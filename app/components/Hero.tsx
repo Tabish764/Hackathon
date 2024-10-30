@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 
 const Hero = () => {
   return (
@@ -15,7 +15,7 @@ const Hero = () => {
            
         </div>
         <div className='mt-[6rem] '>
-                <img alt='iphone'  className='w-[25rem] ' src='/iphone.png'></img>
+                <Image alt='iphone'  className='w-[25rem] ' src='/iphone.png'></Image>
             </div>
             </div>
     </div>
